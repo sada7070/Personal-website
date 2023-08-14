@@ -1,0 +1,90 @@
+.titlecard{
+    padding-top: 0%;
+    width: 100%;
+    height: 720px;
+    background-color: rgb(208, 246, 246);
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+} 
+
+img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.profile h2, .bodysec,.ending h2{
+    color: rgb(78, 233, 233);
+    text-align: center;
+}
+
+
+.bodysec{
+    margin-top: 100px;
+   text-align: center;
+    
+}
+
+.gif{
+    margin-left: 50%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto ;
+    grid-template-rows: 1fr auto;
+    
+}
+
+.skill{
+    margin-top: 100px;
+    margin-left: 200px; 
+    margin-right: 300px;
+}
+
+@media(max-width: 700px){
+    .gif{
+        margin-left: 0%;
+    }
+    
+    .skill{
+        margin-left: 10%;
+    }
+  }
+
+.ending{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.skill h4, #end{
+    color: rgb(0, 103, 103);
+    font-weight: 500;
+}
+
+footer{
+    background-color: rgb(208, 246, 246);
+}
